@@ -1,0 +1,83 @@
+.container{
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.required:after{
+    content: "*";
+    color: red;
+}
+
+label{
+    
+    margin-left: 5%;
+    bottom: 20%;
+    font-weight: bold;
+}
+
+input{
+    margin-left: 5%;
+   
+   
+}
+
+.text{
+    width: 25%;
+    height: 25px;
+}
+p{
+    margin-left: 5%;
+    
+}
+.email{
+    width:52%;
+    height: 25px;
+}
+
+.lastnametext{
+    margin-left: 2%;
+  
+}
+
+.lastname{
+    margin-left:25%
+}
+
+.icon{
+    color: sandybrown;
+    font-size: 40px;
+}
+
+table{
+    border-collapse: collapse;
+    margin-left: 5%;
+    margin-right: 50%;
+    width: 90%;
+    table-layout: fixed;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+td{
+    text-align: center;
+}
+
+.lefttabledata{
+    text-align: left;
+}
+
+textarea{
+    width:90%;
+    margin-left: 5%;
+    height:100px;
+}
+
